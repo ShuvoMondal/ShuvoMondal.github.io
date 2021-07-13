@@ -51,7 +51,7 @@
 .card{ 
     margin: 1em; 
     width: 22rem;
-    height: 16rem;
+    height: 17rem;
     color: #fff;
     background-size: cover;
     background-position: center;
@@ -108,6 +108,10 @@
 .page-footer .links a{
     color: #1566a8;
     margin-right: 20px;
+}
+
+.page-footer .links a:hover{
+    color: #000;
 }
 
 .footer-copyright{
