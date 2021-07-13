@@ -39,13 +39,13 @@
 }
 
 .link a{
-    font-size: 1.5em;
-    padding: .25em .9rem;
-    color: #1566a8;
+    font-size: 1.3em;
+    margin: .25em .5rem;
+    color: #476072;
 }
 
 .link a:hover{
-    color: #000;
+    color: #548CA8;
 }
 
 .card{ 
@@ -82,7 +82,7 @@
 }
 
 .card-text a:hover{
-    color: #1566a8;
+    color: #548CA8;
 }
 
 .card-body{
@@ -96,7 +96,7 @@
 }
 
 .page-footer{
-    background-color: #f8f7fc;
+    background-color: #EEEEEE;
 }
 
 .page-footer .links{
@@ -106,7 +106,7 @@
     justify-content: center;
 }
 .page-footer .links a{
-    color: #1566a8;
+    color: #476072;
     margin-right: 20px;
 }
 
@@ -115,5 +115,23 @@
 }
 
 .footer-copyright{
-    background-color: #012542;
+    background-color: #334257;
+}
+
+.contact{
+    text-decoration: none;
+    color: #476072;
+}
+
+.contact:hover{
+    color: #000;
+}
+
+.footer-copyright a{
+    text-decoration: none;
+    color: #f8f7fc;
+}
+
+.footer-copyright a:hover{
+    color: #548CA8;
 }
