@@ -2,9 +2,10 @@
 
 *{
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
 }
 
-.hero{
+.hero, .projects{
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -23,4 +24,83 @@
 
 .hero .img-container{
     border-radius: 50%;
+}
+
+.hero img{
+    -webkit-filter: grayscale(-50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(-50%);
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.link a{
+    font-size: 1.5em;
+    padding: .25em .9rem;
+    color: #1566a8;
+}
+
+.link a:hover{
+    color: #000;
+}
+
+.card{ 
+    margin: 1em; 
+    width: 22rem;
+    height: 16rem;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    padding: 9.7rem 0 0;
+    border: none;
+    border-radius: 3%;
+}
+
+
+.card-title{
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1em;
+    font-weight: 400;
+    color: #999;
+}
+
+.card-text a{
+    font-size: 1.3em;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.card-text a:hover{
+    color: #1566a8;
+}
+
+.card-body{
+    padding: 1.5em;
+    background: linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(20 0% 0% / 0.3) 20%,
+        hsl(0 0% 0% / 1)
+    );
+    text-align: left;
+}
+
+.page-footer{
+    background-color: #f8f7fc;
+}
+
+
+
+.footer-copyright{
+    background-color: #012542;
 }
