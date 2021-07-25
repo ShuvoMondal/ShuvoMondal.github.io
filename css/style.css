@@ -95,6 +95,15 @@ a{
     color: #999;
 }
 
+.card-title a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.card-title a:hover{
+    color: #548CA8;
+}
+
 .card-text a{
     font-size: 1.3em;
     margin-left: 15px;
@@ -154,4 +163,24 @@ a{
 
 .footer-copyright a:hover{
     color: #548CA8;
+}
+
+.works{
+    background-color: rgb(240, 240, 240);
+}
+
+.works h2{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.work-card{ 
+    margin: 1em; 
+    width: 25rem;
+    height: 25rem;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    padding: 9.7rem 0 0;
+    border: none;
 }
